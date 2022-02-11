@@ -17,11 +17,11 @@ async function getGames() {
         break;
       }
 
-      gamesContainer.innerHTML += `<section class="game-wrapper">
+      gamesContainer.innerHTML += `<article class="game-wrapper">
                                       <p class="games-name"><span>Name:</span> ${gamesResult[i].name}</p>
                                       <p class="games-rating"><span>Rating:</span> ${gamesResult[i].rating}</p>
                                       <p class="games-tag"><span>Number of tags:</span> ${gamesResult[i].tags.length}</p>
-                                   </section>`;
+                                   </article>`;
     }
 
     console.log("Games successfully loaded");
