@@ -1,0 +1,27 @@
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-wrapper {
+  background-color: grey;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  padding: 30px;
+  margin: 20px;
+  width: 300px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.error {
+  border-style: solid;
+  padding: 10px;
+  background-color: pink;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
