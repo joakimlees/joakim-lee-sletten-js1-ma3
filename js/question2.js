@@ -12,11 +12,7 @@ async function getGames() {
 
     gamesContainer.innerHTML = "";
 
-    for (let i = 0; i < gamesResult.length; i++) {
-      if (i === 8) {
-        break;
-      }
-
+    for (let i = 0; i < 8; i++) {
       gamesContainer.innerHTML += `<article class="game-wrapper">
                                       <p class="games-name"><span>Name:</span> ${gamesResult[i].name}</p>
                                       <p class="games-rating"><span>Rating:</span> ${gamesResult[i].rating}</p>
